@@ -1,7 +1,7 @@
-package guru.qa.drivers;
+package mobile18.drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
-import guru.qa.config.Credentials;
+import mobile18.config.Credentials;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.remote.AutomationName;

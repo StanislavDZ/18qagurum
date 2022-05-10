@@ -1,6 +1,6 @@
-package guru.qa.helpers;
+package mobile18.helpers;
 
-import guru.qa.config.Credentials;
+import mobile18.config.Credentials;
 
 import static io.restassured.RestAssured.given;
 

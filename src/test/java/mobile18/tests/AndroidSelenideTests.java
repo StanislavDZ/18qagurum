@@ -1,4 +1,4 @@
-package guru.qa.tests;
+package mobile18.tests;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;

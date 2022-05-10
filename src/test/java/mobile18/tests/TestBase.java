@@ -1,8 +1,9 @@
-package guru.qa.tests;
+package mobile18.tests;
 
 import com.codeborne.selenide.Configuration;
-import guru.qa.helpers.Attach;
+import mobile18.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
+import mobile18.drivers.DeviceDriver;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,8 +11,6 @@ import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
-import static guru.qa.drivers.DeviceDriver.getDeviceDriver;
-import static guru.qa.helpers.Attach.getSessionId;
 
 public class TestBase {
     private static final String deviceHost = System.getProperty("deviceHost");
@@ -20,7 +19,7 @@ public class TestBase {
     public static void setup() {
         addListener("AllureSelenide", new AllureSelenide());
 
-        Configuration.browser = getDeviceDriver(deviceHost);
+        Configuration.browser = DeviceDriver.getDeviceDriver(deviceHost);
         Configuration.browserSize = null;
     }
 
@@ -31,7 +30,7 @@ public class TestBase {
 
     @AfterEach
     public void afterEach() {
-        String sessionId = getSessionId();
+        String sessionId = Attach.getSessionId();
 
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();

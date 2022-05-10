@@ -1,7 +1,7 @@
-package guru.qa.drivers;
+package mobile18.drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
-import guru.qa.config.Credentials;
+import mobile18.config.Credentials;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;

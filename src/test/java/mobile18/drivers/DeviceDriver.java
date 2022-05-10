@@ -1,4 +1,4 @@
-package guru.qa.drivers;
+package mobile18.drivers;
 
 public class DeviceDriver {
     public static String getDeviceDriver(String deviceHost) {

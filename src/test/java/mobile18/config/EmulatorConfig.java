@@ -1,4 +1,4 @@
-package guru.qa.config;
+package mobile18.config;
 
 import org.aeonbits.owner.Config;
 

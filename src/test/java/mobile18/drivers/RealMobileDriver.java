@@ -1,4 +1,4 @@
-package guru.qa.drivers;
+package mobile18.drivers;
 
 public class RealMobileDriver {
 }
