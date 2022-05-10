@@ -8,8 +8,8 @@
 >```
 >deviceName=Google Pixel 4
 >platformVersion=11.0
->user="***" - взять из browserstack
->key="***" - взять из browserstack
+>user="***" - генерируется на browserstack
+>key="***" - генерируется на browserstack
 >app=bs://95f5d0ef3fe39cdf5ac84d7d4124e588eae68bd2
 >url=http://hub.browserstack.com/wd/hub
 >```
@@ -21,9 +21,9 @@
 > ```src/test/resources/config/emulator.properties```
 * Добавить данные:
 >```
->deviceName="***" - @DefaultValue("Pixel_4")
+>deviceName='***' - @DefaultValue("Pixel_4")
 >platformName=Android
->platformVersion="***" -  @DefaultValue("11.0")
+>platformVersion='***' -  @DefaultValue("11.0")
 >app=https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk?raw=true
 >url=http://localhost:4723/wd/hub
 >```
@@ -42,7 +42,7 @@
 >```
 >deviceName=******** - deviceName из adb
 >platformName=Android
->platformVersion=**** -  platformVersion из мобилы
+>platformVersion='***' -  platformVersion из мобилы
 >app=https://github.com/wikimedia/apps-android-wikipedia/releases/download/latest/app-alpha-universal-release.apk?raw=true
 >url=http://localhost:4723/wd/hub
 >```
