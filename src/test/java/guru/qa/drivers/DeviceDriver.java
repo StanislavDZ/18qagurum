@@ -1,4 +1,4 @@
-package mobi18.qa.drivers;
+package guru.qa.drivers;
 
 public class DeviceDriver {
     public static String getDeviceDriver(String deviceHost) {

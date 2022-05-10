@@ -1,7 +1,7 @@
-package mobi18.qa.tests;
+package guru.qa.tests;
 
 import com.codeborne.selenide.Configuration;
-import mobi18.qa.helpers.Attach;
+import guru.qa.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,8 +10,8 @@ import org.junit.jupiter.api.BeforeEach;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
-import static mobi18.qa.drivers.DeviceDriver.getDeviceDriver;
-import static mobi18.qa.helpers.Attach.getSessionId;
+import static guru.qa.drivers.DeviceDriver.getDeviceDriver;
+import static guru.qa.helpers.Attach.getSessionId;
 
 public class TestBase {
     private static final String deviceHost = System.getProperty("deviceHost");

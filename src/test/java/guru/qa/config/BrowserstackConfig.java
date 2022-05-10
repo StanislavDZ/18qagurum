@@ -1,4 +1,4 @@
-package mobi18.qa.config;
+package guru.qa.config;
 
 import org.aeonbits.owner.Config;
 

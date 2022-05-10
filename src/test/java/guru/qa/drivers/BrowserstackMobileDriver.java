@@ -1,7 +1,7 @@
-package mobi18.qa.drivers;
+package guru.qa.drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
-import mobi18.qa.config.Credentials;
+import guru.qa.config.Credentials;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;

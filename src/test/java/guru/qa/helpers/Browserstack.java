@@ -1,6 +1,6 @@
-package mobi18.qa.helpers;
+package guru.qa.helpers;
 
-import mobi18.qa.config.Credentials;
+import guru.qa.config.Credentials;
 
 import static io.restassured.RestAssured.given;
 
